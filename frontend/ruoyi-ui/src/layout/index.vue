@@ -1,4 +1,21 @@
 <template>
+<<<<<<< HEAD
+  <el-container class="app-wrapper">
+    <el-header height="50px" class="app-header">
+      <navbar />
+    </el-header>
+    <el-container>
+      <transition name="fade-aside-transform" mode="out-in">
+      <el-aside v-if="!sidebarRouterHidden && !sidebar.hide" width="200px">
+        <sidebar/>
+      </el-aside>
+      </transition>
+      <el-main>
+        <app-main />
+      </el-main>
+    </el-container>
+  </el-container>
+=======
   <div class="app-wrapper">
     <div class="nav">
       <div class="left">
@@ -30,6 +47,7 @@
     </div>
     <app-main />
   </div>
+>>>>>>> f3438530270daa80bd6dd76a200384b577b0d576
 </template>
 
 <script>
@@ -62,6 +80,18 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+<<<<<<< HEAD
+.app-wrapper{
+  background: #f0f2f5;
+  .el-header{
+    padding: 0;
+  }
+  .el-main{
+    padding: 0;
+    width: 100%;
+    min-height: calc(100vh - 50px);
+    
+=======
 @import "~@/assets/styles/mixin.scss";
 @import "~@/assets/styles/variables.scss";
 
@@ -112,6 +142,7 @@ export default {
   }
   .el-menu {
     background-color: transparent;
+>>>>>>> f3438530270daa80bd6dd76a200384b577b0d576
   }
   .el-menu--horizontal > .el-menu-item {
     border-bottom: none;

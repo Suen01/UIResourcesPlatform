@@ -54,8 +54,12 @@ import Hamburger from '@/components/Hamburger'
 import Screenfull from '@/components/Screenfull'
 import SizeSelect from '@/components/SizeSelect'
 import Search from '@/components/HeaderSearch'
+<<<<<<< HEAD
+import Logo from "./Logo.vue";
+=======
 import RuoYiGit from '@/components/RuoYi/Git'
 import RuoYiDoc from '@/components/RuoYi/Doc'
+>>>>>>> f3438530270daa80bd6dd76a200384b577b0d576
 
 export default {
   components: {

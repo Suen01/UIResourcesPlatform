@@ -130,7 +130,12 @@ export default {
       } else {
         // 显示左侧联动菜单
         this.activeRoutes(key);
+<<<<<<< HEAD
+        this.$router.push({ path: key });
+        // this.$store.dispatch('app/toggleSideBarHide', false);
+=======
         this.$store.dispatch('app/toggleSideBarHide', false);
+>>>>>>> f3438530270daa80bd6dd76a200384b577b0d576
       }
     },
     // 当前激活的路由
